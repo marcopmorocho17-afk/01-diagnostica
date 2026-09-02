@@ -5,7 +5,6 @@ const mensajeResultado = document.querySelector("#mensaje-resultado");
 
 function generarSaludo() {
     const nombre = inputNombre.value.trim();
-    
     if (nombre === "") {
         mensajeResultado.textContent = "⚠️ Por favor ingresa tu nombre";
         mensajeResultado.style.color = "#ea580c";
