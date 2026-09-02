@@ -12,7 +12,6 @@ public class Ejercicio5 {
     }
 }
 
-
 class Estudiante {
     String nombre;
     int id;

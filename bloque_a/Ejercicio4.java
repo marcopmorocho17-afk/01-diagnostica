@@ -10,6 +10,5 @@ public class Ejercicio4 {
             j--;
         }
         System.out.println();
-
     }
 }

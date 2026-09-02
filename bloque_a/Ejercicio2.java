@@ -7,7 +7,6 @@ public class Ejercicio2 {
         int suma;
         int multiplicacion;
         int division;
-        // TODO: Lee dos números por teclado
         System.out.print("Introduce el primer número: ");
         int num1 = input.nextInt();
         System.out.print("Introduce el segundo número: ");
@@ -16,7 +15,6 @@ public class Ejercicio2 {
         resta = num1 - num2;
         multiplicacion = num1 * num2;
         division = num1 / num2;
-
         System.out.println("Suma: " + suma);
         System.out.println("Resta: " + resta);
         System.out.println("Multiplicación: " + multiplicacion);
